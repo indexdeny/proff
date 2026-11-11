@@ -3,7 +3,7 @@
 **Status:** ACTIVE  
 **Verified Root:** `C:\Users\candy\Desktop\lil_projects\proff` (Verified: EXISTING, not a link/junction)  
 **Governance:** PGSM v1.0.0  
-**Current Structure Version:** v1.1.0  
+**Current Structure Version:** v1.2.0  
 **Knowledge-Base Release:** Grok v1.1.0 (`IMPORT_PENDING`)  
 
 ---
@@ -22,7 +22,7 @@ It does not diagnose mental illness, infer deceit from face/voice, or classify s
 |---|---|---|---|---|
 | **PH-01** | Workspace discovery and non-destructive PGSM bootstrap | PROF-TZ-0001 | **COMPLETED** | Exact root verified; existing files preserved; actual tree, state, task log, `.gitignore` and evidence created; no global modifications |
 | **PH-02** | Local customization inventory, scoped rules, recovery policy | PROF-TZ-0002 | **COMPLETED** | Full inventory of rules/skills/agents/plugins/MCP/hooks; permissions/dependency assessment; R0 backup/restore verified; workspace rules established |
-| **PH-03** | Isolated Git and optional private GitHub checkpoints | PROF-TZ-0003 | `NOT_STARTED` | No inherited Git mutation; secrets/PII excluded; private remote only after explicit permission; SHA parity or PUSH_PENDING |
+| **PH-03** | Isolated Git and optional private GitHub checkpoints | PROF-TZ-0003 | **COMPLETED** | Independent local Git initialized; secrets/PII excluded; native ignore tests pass; local checkpoint verified; remote PUSH_PENDING |
 | **PH-04** | Source intake and scientific KB normalization | PROF-TZ-0004-KB | `NOT_STARTED` | Raw source hashes; catalog count reconciled; references verified independently; permissions reviewed; no unlicensed bulk download |
 | **PH-05** | Multimodal ingestion and normalization | PROF-TZ-0005 | `NOT_STARTED` | Reproducible accepted-format conversion; text and ASR with timestamps, language, uncertainty, failed-segment statuses; channel isolation |
 | **PH-06** | Evidence/analysis contracts and targeted pilot | PROF-TZ-0006 | `NOT_STARTED` | Observation vs inference separation; claim-to-evidence traceability; baseline controls; no fabricated psychometric intervals; negative tests |

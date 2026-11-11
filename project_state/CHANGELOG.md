@@ -7,6 +7,23 @@ and this project adheres to [PGSM v1.0.0](PGSM_PROJECT_STANDARD_v1.0.0.md).
 
 ---
 
+## [1.2.0] - 2026-11-12
+
+### Added
+- Executed task `TZ-0003-isolated-git-checkpoints`:
+  - Verified R0 recovery baseline integrity (54,947 bytes, 29 files, 100% hash parity on trial restore).
+  - Formulated `FILE_CLASSIFICATION.md` categorizing all workspace files into `GIT_REQUIRED`, `GIT_EXCLUDED`, and `REVIEW_REQUIRED`.
+  - Codified `governance/git_policy.md` defining repository ownership, selective staging, secret scanning, and remote authorization gates.
+  - Implemented workspace rule `.agents/rules/03-git-checkpoints.md`.
+  - Initialized independent local Git repository on branch `main` scoped strictly to Project Root.
+  - Executed native `git check-ignore -q` tests (25/25 probes passed) confirming absolute exclusion of `tg_save/`, backup archives, secrets, and raw exports.
+  - Created initial checkpoint commit `fb1ab4e` (`TZ-0003: initialize isolated proff repository`) containing 51 verified files.
+  - Formatted `LOCAL_CHECKPOINT_RECEIPT.json` and `GITHUB_READINESS.md` (`PUSH_PENDING`).
+  - Created standalone architectural decision record `project_state/decisions/ADR-0006-git-isolation.md`.
+  - Elevated structure version to `v1.2.0` with immutable snapshot `versions/v1.2.0.md`.
+
+---
+
 ## [1.1.0] - 2026-11-12
 
 ### Added

@@ -18,7 +18,7 @@
 | **Push Authorization** | **`NOT_GRANTED`** | Explicit human approval required before any network push |
 | **Required Visibility** | **`PRIVATE_REQUIRED`** | Public repository creation strictly prohibited under SEC-02 |
 | **Candidate Repository Name** | `proff` (Subject to owner confirmation) | To be confirmed upon authorization |
-| **Candidate Owner / Account** | `egregie` (From local Git config) | To be confirmed upon authorization |
+| **Candidate Owner / Account** | `indexdeny` (Updated per explicit user request) | To be confirmed upon authorization |
 | **Remote Synchronization Status** | **`PUSH_PENDING`** | Local checkpoints established; remote transmission deferred |
 
 ---
