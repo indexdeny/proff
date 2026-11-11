@@ -1,0 +1,171 @@
+﻿{
+    "backup_id":  "R0",
+    "created_at":  "2026-11-12T00:38:21+02:00",
+    "project_root":  "C:/Users/candy/Desktop/lil_projects/proff",
+    "task_id":  "TZ-0002-environment-audit",
+    "file_count":  29,
+    "backup_archive":  "R0_BACKUP.zip",
+    "backup_archive_sha256":  "9AA491D6E08F4DF733E0022B4F0175F2FBBD7D0A75B960D1FA81ECDCA9121267",
+    "backup_archive_size_bytes":  54947,
+    "restore_verification":  "PASS",
+    "exclusions":  [
+                       "tg_save/**",
+                       "inputs/raw_exports/** (excluding .gitkeep)",
+                       "inputs/source_staging/** (excluding .gitkeep)",
+                       "outputs/** (excluding README.md)",
+                       "project_state/tasks/TZ-0002-environment-audit/R0_BACKUP.zip",
+                       "project_state/tasks/TZ-0002-environment-audit/R0_MANIFEST.json",
+                       "_tmp_r0_restore_test/**",
+                       "credentials",
+                       "secrets",
+                       "tokens",
+                       ".env*"
+                   ],
+    "files":  [
+                  {
+                      "relative_path":  "AGENTS.md",
+                      "size_bytes":  2584,
+                      "sha256":  "3C8D593740CED4C10CE5B7F20C02314AEA92131EA3020F9309167B3671E15FC9"
+                  },
+                  {
+                      "relative_path":  "README.md",
+                      "size_bytes":  1798,
+                      "sha256":  "526B67FA16A675E4D0AA40C042A2AB43C784F4E0FEBC6CAA9BC08ACB34204509"
+                  },
+                  {
+                      "relative_path":  ".gitignore",
+                      "size_bytes":  879,
+                      "sha256":  "3D7A8FABEB04A87FF1168E9CB1A2AE4D7689AE826A76F4D7BAF96EA9630DA78A"
+                  },
+                  {
+                      "relative_path":  "PROF-TZ-0001_WORKSPACE_BOOTSTRAP.md",
+                      "size_bytes":  18868,
+                      "sha256":  "54FAB793D96FD984C66F42D48F0638F0285BD890C7FE938EC769898A54FC0E02"
+                  },
+                  {
+                      "relative_path":  "ROADMAP_PROFF_v1.0.md",
+                      "size_bytes":  4411,
+                      "sha256":  "BF267B59B66431D3F4E8C5D9B2BEDE420D7F54BFCE19C62F26CCA2AE1F21CADA"
+                  },
+                  {
+                      "relative_path":  "governance/naming.md",
+                      "size_bytes":  1411,
+                      "sha256":  "F476C6FA2043D97EF18F9EBF9EA6A2D0A0B1C585782D08905947D57788BB93F9"
+                  },
+                  {
+                      "relative_path":  "governance/policies/privacy_boundary.md",
+                      "size_bytes":  1877,
+                      "sha256":  "3F35C90C157F2F114190BC447BD42FC80459A89C6526A1AC0AB361B9975FC6E1"
+                  },
+                  {
+                      "relative_path":  "inputs/raw_exports/.gitkeep",
+                      "size_bytes":  1,
+                      "sha256":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+                  },
+                  {
+                      "relative_path":  "inputs/source_staging/.gitkeep",
+                      "size_bytes":  1,
+                      "sha256":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+                  },
+                  {
+                      "relative_path":  "outputs/README.md",
+                      "size_bytes":  663,
+                      "sha256":  "2A6A8897350A7613AA6CA94EEC5F3D0713F53FD8369EA8D5B26BBC882175047C"
+                  },
+                  {
+                      "relative_path":  "pipeline/README.md",
+                      "size_bytes":  869,
+                      "sha256":  "EA841C66002F68BFA6A03DB2BC3C0129906B9D7DE9659F836C632C9701DA11B2"
+                  },
+                  {
+                      "relative_path":  "project_state/CHANGELOG.md",
+                      "size_bytes":  1213,
+                      "sha256":  "47DA462382EB27B58BEE8846822C80809DEDA1B440081234DB5A2B99754B2F39"
+                  },
+                  {
+                      "relative_path":  "project_state/CURRENT_STATE.md",
+                      "size_bytes":  1368,
+                      "sha256":  "B4E5B7FC83FBC563EA494DF4DFA61372FE5CFAFE906231EA52277BB769504D19"
+                  },
+                  {
+                      "relative_path":  "project_state/DECISIONS.md",
+                      "size_bytes":  883,
+                      "sha256":  "EBBE875FEBC900638BCF6C4F66765AB540118D162197448617D6A7AA7499875B"
+                  },
+                  {
+                      "relative_path":  "project_state/ISSUES.md",
+                      "size_bytes":  1047,
+                      "sha256":  "60942D5EC8134B2BA660A311391F546169DA563971DDA670DC3FF54627B8CFDC"
+                  },
+                  {
+                      "relative_path":  "project_state/ROADMAP.md",
+                      "size_bytes":  3824,
+                      "sha256":  "DD6C57B002A6B0CC4CB0FE55CFE8B694EEB47C8D711C2C9197E3CD0A869F9983"
+                  },
+                  {
+                      "relative_path":  "project_state/TASK_REGISTER.md",
+                      "size_bytes":  972,
+                      "sha256":  "2934A885DB71BFC0951BC766F150510FE8EEA0078FB47FB9ACB6207E539236AA"
+                  },
+                  {
+                      "relative_path":  "project_state/history/state/STATE-000001.md",
+                      "size_bytes":  981,
+                      "sha256":  "DB840E5B62FD6AA667719A0C3C19F344228911B30D3733F6FFDD4900EF8060A4"
+                  },
+                  {
+                      "relative_path":  "project_state/history/state/STATE-000002.md",
+                      "size_bytes":  1175,
+                      "sha256":  "E83F9A42509877EA0A4AE8B591D7EC3B5D1AC6E05D522ADDD63325BB36F00B04"
+                  },
+                  {
+                      "relative_path":  "project_state/history/state/STATE-000003.md",
+                      "size_bytes":  945,
+                      "sha256":  "3EF5AFD49FFD6E5E40EA487659EC89C79F312DA7B8500F2AB9E3D9BF2BE407E1"
+                  },
+                  {
+                      "relative_path":  "project_state/structure/STRUCTURE.md",
+                      "size_bytes":  3728,
+                      "sha256":  "CD93182CEDC9BAC04DBBAEB16A63FE792E2D372A18D5FDB4A023EA02129A49FD"
+                  },
+                  {
+                      "relative_path":  "project_state/structure/STRUCTURE_CHANGELOG.md",
+                      "size_bytes":  475,
+                      "sha256":  "CC7E7E0F0C5080EE7744056A4B489946ACF1015F8CE944042441BF0B38F99D5E"
+                  },
+                  {
+                      "relative_path":  "project_state/structure/versions/v1.0.0.md",
+                      "size_bytes":  1897,
+                      "sha256":  "86A40DE0CB5B06D5A9F3E68BEC4550A7F7EED0E2681141B7668896998E9384D7"
+                  },
+                  {
+                      "relative_path":  "project_state/tasks/TZ-0001-workspace-bootstrap/TZ.md",
+                      "size_bytes":  18868,
+                      "sha256":  "54FAB793D96FD984C66F42D48F0638F0285BD890C7FE938EC769898A54FC0E02"
+                  },
+                  {
+                      "relative_path":  "project_state/tasks/TZ-0001-workspace-bootstrap/WALKTHROUGH.md",
+                      "size_bytes":  11088,
+                      "sha256":  "933CB765135805F3E090C115DA1E0193865844995A7224A6957B37E2BEDC2514"
+                  },
+                  {
+                      "relative_path":  "project_state/tasks/TZ-0002-environment-audit/TZ.md",
+                      "size_bytes":  34807,
+                      "sha256":  "5BF1AA902E08F10D3006FBA24F2517DD7C23EB37D5F3405A70DEB064655C9163"
+                  },
+                  {
+                      "relative_path":  "project_state/tasks/TZ-0002-environment-audit/DISCOVERY.md",
+                      "size_bytes":  6603,
+                      "sha256":  "490246ED3D2470826E5F2C8349F5AD4CCA838C96091AFFAF11BEF332E07B13D9"
+                  },
+                  {
+                      "relative_path":  "specifications/knowledge_base/README.md",
+                      "size_bytes":  917,
+                      "sha256":  "6E52A1AAA0B55AF766802595F53AE348CD93DC11E6971CEAAACA13F2A3AF1AB6"
+                  },
+                  {
+                      "relative_path":  "tests/README.md",
+                      "size_bytes":  696,
+                      "sha256":  "16518B9A2842055AB06261D5CBAD18167329A7B0EEB5BED49A2610D9D3F9ECB3"
+                  }
+              ]
+}

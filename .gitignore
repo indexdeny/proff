@@ -1,0 +1,70 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*credential*
+*secret*
+*.pem
+*.key
+
+# Python virtual environments and caches
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS, editor and runtime temporary files
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw case communications, Telegram exports, and sensitive payload isolation
+tg_save/
+cases/
+transcripts/
+*.ogg
+*.opus
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
+# Inputs staging and raw exports (preserve structural .gitkeep only)
+inputs/raw_exports/**
+!inputs/raw_exports/.gitkeep
+inputs/source_staging/**
+!inputs/source_staging/.gitkeep
+inputs/reference_library/pdf/**
+inputs/reference_library/extracted_text/**
+
+# Outputs (preserve explanatory README only)
+outputs/**
+!outputs/README.md
+
+# Recovery baselines and backup archives
+*.zip
+*_BACKUP.zip
+project_state/tasks/**/R0_BACKUP.zip
+
